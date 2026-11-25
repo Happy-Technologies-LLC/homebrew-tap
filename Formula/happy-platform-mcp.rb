@@ -1,25 +1,25 @@
 class HappyPlatformMcp < Formula
   desc "happy-platform-mcp composition root and command line: wires the trusted root, services, tools and transports."
   homepage "https://github.com/Happy-Technologies-LLC/happy-platform-mcp"
-  version "7.2.0"
+  version "7.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.0/happy-platform-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "df6d2ab79fc563e01761bb1acc569e48e9a194f3cb3b9a311acdd04b718460f6"
+      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.1/happy-platform-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "f720ac2db85edd17d12d7fd91d731c965e9d2a0ff566d651025844834cefaa01"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.0/happy-platform-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "d099fb1fbfc937f780cd4756e378d4de4c42091bf188c2faa9bff727fa8a01fd"
+      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.1/happy-platform-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "4325b1bf69089c768cba028faeb4fbaf18e103c4173c8223b50720b526fa30e0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.0/happy-platform-mcp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "48482f023ec8cdf294d19586e2f7be8e13f27c1385ea67b13c44e5abf2671915"
+      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.1/happy-platform-mcp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6f71b8f9fa8f2ae7a90ec60b8a57807156d6a9e2c55adb806ea3669261d62390"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.0/happy-platform-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b2acae8e58dc98c1ed331f537785c2030210e4f7b4703cbfa6cae521555c0eb2"
+      url "https://github.com/Happy-Technologies-LLC/happy-platform-mcp/releases/download/v7.2.1/happy-platform-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7b645ea65038935aa22616278e344ae1ebb6e48643c5604e0b87c22facc0185a"
     end
   end
   license "Apache-2.0"
